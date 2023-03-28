@@ -1,0 +1,634 @@
+$comment
+	File created using the following command:
+		vcd file LogicalStep_Lab4.msim.vcd -direction
+$end
+$date
+	Thu Mar 23 17:48:33 2023
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module LogicalStep_Lab4_top_vlg_vec_tst $end
+$var reg 1 ! clkin_50 $end
+$var reg 4 " pb_n [3:0] $end
+$var reg 1 # rst_n $end
+$var reg 8 $ sw [7:0] $end
+$var wire 1 % leds [7] $end
+$var wire 1 & leds [6] $end
+$var wire 1 ' leds [5] $end
+$var wire 1 ( leds [4] $end
+$var wire 1 ) leds [3] $end
+$var wire 1 * leds [2] $end
+$var wire 1 + leds [1] $end
+$var wire 1 , leds [0] $end
+$var wire 1 - seg7_char1 $end
+$var wire 1 . seg7_char2 $end
+$var wire 1 / seg7_data [6] $end
+$var wire 1 0 seg7_data [5] $end
+$var wire 1 1 seg7_data [4] $end
+$var wire 1 2 seg7_data [3] $end
+$var wire 1 3 seg7_data [2] $end
+$var wire 1 4 seg7_data [1] $end
+$var wire 1 5 seg7_data [0] $end
+
+$scope module i1 $end
+$var wire 1 6 gnd $end
+$var wire 1 7 vcc $end
+$var wire 1 8 unknown $end
+$var tri1 1 9 devclrn $end
+$var tri1 1 : devpor $end
+$var tri1 1 ; devoe $end
+$var wire 1 < rst_n~input_o $end
+$var wire 1 = sw[0]~input_o $end
+$var wire 1 > sw[1]~input_o $end
+$var wire 1 ? sw[2]~input_o $end
+$var wire 1 @ sw[3]~input_o $end
+$var wire 1 A sw[4]~input_o $end
+$var wire 1 B sw[5]~input_o $end
+$var wire 1 C sw[6]~input_o $end
+$var wire 1 D sw[7]~input_o $end
+$var wire 1 E ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 F ~QUARTUS_CREATED_UNVM~~busy $end
+$var wire 1 G ~QUARTUS_CREATED_ADC1~~eoc $end
+$var wire 1 H leds[0]~output_o $end
+$var wire 1 I leds[1]~output_o $end
+$var wire 1 J leds[2]~output_o $end
+$var wire 1 K leds[3]~output_o $end
+$var wire 1 L leds[4]~output_o $end
+$var wire 1 M leds[5]~output_o $end
+$var wire 1 N leds[6]~output_o $end
+$var wire 1 O leds[7]~output_o $end
+$var wire 1 P seg7_data[0]~output_o $end
+$var wire 1 Q seg7_data[1]~output_o $end
+$var wire 1 R seg7_data[2]~output_o $end
+$var wire 1 S seg7_data[3]~output_o $end
+$var wire 1 T seg7_data[4]~output_o $end
+$var wire 1 U seg7_data[5]~output_o $end
+$var wire 1 V seg7_data[6]~output_o $end
+$var wire 1 W seg7_char1~output_o $end
+$var wire 1 X seg7_char2~output_o $end
+$var wire 1 Y clkin_50~input_o $end
+$var wire 1 Z clkin_50~inputclkctrl_outclk $end
+$var wire 1 [ pb_n[3]~input_o $end
+$var wire 1 \ pb_n[2]~input_o $end
+$var wire 1 ] pb_n[0]~input_o $end
+$var wire 1 ^ INST5|sreg~1_combout $end
+$var wire 1 _ INST5|sreg~0_combout $end
+$var wire 1 ` INST5|dout~feeder_combout $end
+$var wire 1 a INST5|dout~q $end
+$var wire 1 b INST7|hreg~0_combout $end
+$var wire 1 c INST7|hreg~q $end
+$var wire 1 d INST7|dout~feeder_combout $end
+$var wire 1 e INST7|dout~q $end
+$var wire 1 f pb_n[1]~input_o $end
+$var wire 1 g INST4|sreg~1_combout $end
+$var wire 1 h INST4|sreg~0_combout $end
+$var wire 1 i INST4|dout~feeder_combout $end
+$var wire 1 j INST4|dout~q $end
+$var wire 1 k INST6|hreg~0_combout $end
+$var wire 1 l INST6|hreg~q $end
+$var wire 1 m INST6|dout~feeder_combout $end
+$var wire 1 n INST6|dout~q $end
+$var wire 1 o INST5|sreg [1] $end
+$var wire 1 p INST5|sreg [0] $end
+$var wire 1 q INST4|sreg [1] $end
+$var wire 1 r INST4|sreg [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b1011 "
+x#
+bx $
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0-
+0.
+05
+04
+03
+02
+01
+00
+0/
+06
+17
+x8
+19
+1:
+1;
+x<
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+0E
+zF
+zG
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+1[
+0\
+1]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+1f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0p
+0o
+0r
+0q
+$end
+#10000
+1!
+1Y
+1Z
+#20000
+0!
+0Y
+0Z
+#30000
+1!
+1Y
+1Z
+#40000
+0!
+0Y
+0Z
+#50000
+1!
+1Y
+1Z
+#60000
+0!
+0Y
+0Z
+#70000
+1!
+1Y
+1Z
+#80000
+0!
+0Y
+0Z
+#90000
+b1010 "
+b1000 "
+1!
+1Y
+0f
+0]
+1Z
+1g
+1^
+#100000
+0!
+0Y
+0Z
+#110000
+1!
+1Y
+1Z
+1r
+1p
+1h
+1_
+#120000
+0!
+0Y
+0Z
+#130000
+1!
+1Y
+1Z
+1q
+1o
+1i
+1`
+#140000
+0!
+0Y
+0Z
+#150000
+1!
+1Y
+1Z
+1j
+1a
+#160000
+0!
+0Y
+0Z
+#170000
+1!
+1Y
+1Z
+#180000
+0!
+0Y
+0Z
+#190000
+1!
+1Y
+1Z
+#200000
+0!
+0Y
+0Z
+#210000
+1!
+1Y
+1Z
+#220000
+0!
+0Y
+0Z
+#230000
+1!
+1Y
+1Z
+#240000
+0!
+0Y
+0Z
+#250000
+1!
+1Y
+1Z
+#260000
+0!
+0Y
+0Z
+#270000
+1!
+1Y
+1Z
+#280000
+0!
+0Y
+0Z
+#290000
+1!
+1Y
+1Z
+#300000
+0!
+0Y
+0Z
+#310000
+1!
+1Y
+1Z
+#320000
+0!
+0Y
+0Z
+#330000
+1!
+1Y
+1Z
+#340000
+0!
+0Y
+0Z
+#350000
+1!
+1Y
+1Z
+#360000
+0!
+0Y
+0Z
+#370000
+1!
+1Y
+1Z
+#380000
+0!
+0Y
+0Z
+#390000
+1!
+1Y
+1Z
+#400000
+0!
+0Y
+0Z
+#410000
+1!
+1Y
+1Z
+#420000
+0!
+0Y
+0Z
+#430000
+1!
+1Y
+1Z
+#440000
+0!
+0Y
+0Z
+#450000
+1!
+1Y
+1Z
+#460000
+0!
+0Y
+0Z
+#470000
+1!
+1Y
+1Z
+#480000
+b1100 "
+0!
+0Y
+1\
+0Z
+1k
+1b
+#490000
+1!
+1Y
+1Z
+1l
+1c
+1m
+1d
+#500000
+0!
+0Y
+0Z
+#510000
+1!
+1Y
+1Z
+1n
+1e
+1I
+1K
+1)
+1+
+#520000
+0!
+0Y
+0Z
+#530000
+1!
+1Y
+1Z
+#540000
+b1000 "
+0!
+0Y
+0\
+0Z
+0k
+0b
+#550000
+1!
+1Y
+1Z
+0l
+0c
+0m
+0d
+#560000
+0!
+0Y
+0Z
+#570000
+1!
+1Y
+1Z
+0n
+0e
+0I
+0K
+0)
+0+
+#580000
+0!
+0Y
+0Z
+#590000
+1!
+1Y
+1Z
+#600000
+0!
+0Y
+0Z
+#610000
+1!
+1Y
+1Z
+#620000
+0!
+0Y
+0Z
+#630000
+1!
+1Y
+1Z
+#640000
+0!
+0Y
+0Z
+#650000
+1!
+1Y
+1Z
+#660000
+0!
+0Y
+0Z
+#670000
+1!
+1Y
+1Z
+#680000
+0!
+0Y
+0Z
+#690000
+1!
+1Y
+1Z
+#700000
+0!
+0Y
+0Z
+#710000
+1!
+1Y
+1Z
+#720000
+0!
+0Y
+0Z
+#730000
+1!
+1Y
+1Z
+#740000
+0!
+0Y
+0Z
+#750000
+1!
+1Y
+1Z
+#760000
+0!
+0Y
+0Z
+#770000
+1!
+1Y
+1Z
+#780000
+0!
+0Y
+0Z
+#790000
+1!
+1Y
+1Z
+#800000
+0!
+0Y
+0Z
+#810000
+1!
+1Y
+1Z
+#820000
+0!
+0Y
+0Z
+#830000
+1!
+1Y
+1Z
+#840000
+0!
+0Y
+0Z
+#850000
+1!
+1Y
+1Z
+#860000
+0!
+0Y
+0Z
+#870000
+1!
+1Y
+1Z
+#880000
+0!
+0Y
+0Z
+#890000
+1!
+1Y
+1Z
+#900000
+0!
+0Y
+0Z
+#910000
+1!
+1Y
+1Z
+#920000
+0!
+0Y
+0Z
+#930000
+1!
+1Y
+1Z
+#940000
+0!
+0Y
+0Z
+#950000
+1!
+1Y
+1Z
+#960000
+0!
+0Y
+0Z
+#970000
+1!
+1Y
+1Z
+#980000
+0!
+0Y
+0Z
+#990000
+b1001 "
+b1011 "
+1!
+1Y
+1f
+1]
+1Z
+0g
+0^
+#1000000
