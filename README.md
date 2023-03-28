@@ -1,5 +1,5 @@
 ﻿# FPGA_Traffic_Control
-Implemented FPGA data display and arithmetic logic unit with structural VHDL design
+Implemented 2 way traffic light control program with pedestrian cross button.
 
 Board used: the University of Waterloo LogicalStep Board housing an Altera MAX10 Field Programmable Gate Array (FPGA) chip and various peripheral components
 
