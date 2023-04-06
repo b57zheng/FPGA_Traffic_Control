@@ -7,7 +7,7 @@ Software used: Altera Quartus‐Prime FPGA Design v15.1
 
 Design Simulation:
 
-![image](https://user-images.githubusercontent.com/98293562/228344702-20abf6c3-f97e-4e97-b3b8-2648f8ce1eb1.png)
+![Part-E-waveform](https://user-images.githubusercontent.com/98293562/230484007-6215d09e-8ba4-46e4-8893-6e5647234ee5.PNG)
 
 Holding Register Simulation:
 
