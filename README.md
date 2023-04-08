@@ -7,7 +7,7 @@ Software used: Altera Quartus‐Prime FPGA Design v15.1
 
 Design Simulation:
 
-![Part-E-waveform](https://user-images.githubusercontent.com/98293562/230484007-6215d09e-8ba4-46e4-8893-6e5647234ee5.PNG)
+![waveform-leds](https://user-images.githubusercontent.com/98293562/230740509-fa5a6df7-45d6-44ff-877b-fc9393501631.PNG)
 
 Holding Register Simulation:
 
